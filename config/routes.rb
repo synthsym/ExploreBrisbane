@@ -1,4 +1,6 @@
 Git::Application.routes.draw do
+  resources :destinations
+
   resources :itineraries
 
   get "home/index"

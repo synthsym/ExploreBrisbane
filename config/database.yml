@@ -8,6 +8,12 @@ development:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+  
+external_db:
+  adapter: asqlite3
+  database: db/places.sqlite3
+  pool: 5
+  timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

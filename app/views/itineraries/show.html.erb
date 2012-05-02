@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @itinerary.title %>
+</p>
+
+<p>
+  <b>Creator:</b>
+  <%= @itinerary.creator %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%= @itinerary.start_time %>
+</p>
+
+<p>
+  <b>End time:</b>
+  <%= @itinerary.end_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_itinerary_path(@itinerary) %> |
+<%= link_to 'Back', itineraries_path %>

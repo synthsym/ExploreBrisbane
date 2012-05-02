@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @destination.name %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @destination.category %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @destination.description %>
+</p>
+
+<p>
+  <b>Time spent:</b>
+  <%= @destination.time_spent %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @destination.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @destination.longitude %>
+</p>
+
+<p>
+  <b>Itinerary:</b>
+  <%= @destination.itinerary %>
+</p>
+
+
+<%= link_to 'Edit', edit_destination_path(@destination) %> |
+<%= link_to 'Back', destinations_path %>

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  category: MyString
+  description: MyText
+  time_spent: 1
+  latitude: 1.5
+  longitude: 1.5
+  itinerary: 
+
+two:
+  name: MyString
+  category: MyString
+  description: MyText
+  time_spent: 1
+  latitude: 1.5
+  longitude: 1.5
+  itinerary: 
